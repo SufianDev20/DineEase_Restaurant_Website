@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container">
+            <a href="index.html" class="logo"><img src="Img/DineEase.png" alt="DineEase" /></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="reservation.html">Book a Table</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle">&#9776;</button>
+        </div>
+    </header>
+    <main class="contact-content">
+
+        <section class="contact-hero">
+            <div class="container">
+                <h1 class="fade-in">Get in Touch</h1>
+                <p class="fade-in">We are ready to answer any questions you may have.</p>
+            </div>
+        </section>
+
+        <section class="contact-details">
+            <div class="container">
+                <div class="info-card fade-in">
+                    <h3>Location</h3>
+                    <p><a href="https://www.google.com/maps/search/University+of+Sharjah" target="_blank">University of
+                            Sharjah</a></p>
+                </div>
+                <div class="info-card fade-in">
+                    <h3>Reservations</h3>
+                    <p>Call us at: <a href="tel:0456123094">045-612-3094</a></p>
+                    <p>Email: <a href="mailto:U23103731@sharjah.ac.ae">U23103731@sharjah.ac.ae</a></p>
+                </div>
+                <div class="info-card fade-in">
+                    <h3>Hours of Operation</h3>
+                    <p>Mon - Fri: 8:00 AM - 10:00 PM</p>
+                    <p>Sat - Sun: 9:00 AM - 11:00 PM</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form-section">
+            <div class="container fade-in">
+                <h2>Send Us a Message</h2>
+                <form action="/submit-contact" method="POST" class="contact-form">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+                    <button type="submit" class="submit-button">Send Inquiry</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+    <footer class="main-footer">
+        <div class="container">
+            <p class="footer-logo">Dine Ease</p>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="reservation.html">Reserve</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Dine Ease. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
